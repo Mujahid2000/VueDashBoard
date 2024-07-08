@@ -81,7 +81,7 @@
             </div>
           </div>
         </div>
-        <div class="bg-[#EDF0F6] rounded-xl px-[1.57rem]   w-[16rem] h-[17.125rem]  mx-auto">
+        <div class="bg-[#EDF0F6] rounded-xl px-[1.57rem] mt-9  w-[16rem] h-[17.125rem]  mx-auto">
             <div class="flex items-center gap-16 mt-[-2rem] justify-between absolute">
                 <img src="https://i.ibb.co/4F63vyw/Illustration-1.png" alt=""><img src="https://i.ibb.co/Z6LVmFd/Illustration.png" alt="">
             </div>

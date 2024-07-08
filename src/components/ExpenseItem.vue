@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-between items-center 2xl:mb-2">
-      <div class="flex items-center space-x-2 ">
+      <div class="flex items-center space-x-2 space-y-7">
         <div :class="['p-2 rounded-full', iconBgColor]">
          <img :src='iconClass' alt="" class="w-[3rem] h-[3rem]">
         </div>
