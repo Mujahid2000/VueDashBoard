@@ -68,7 +68,7 @@
       <div class="xl:w-[21rem] 2xl:w-[25rem] bg-[#F9FAFC] px-[3rem] rounded-r-xl md:mt-0">
         <div class="  pt-[4rem] pb-[3rem] rounded-tr-xl">
           <h2 class=" text-[1.24rem] pb-[1.5rem] font-bold font-[avenir] ">Where your money go?</h2>
-          <div v-for="(category, index) in categories" :key="index" class="mb-4 xl:space-y-1 2xl:space-y-2">
+          <div v-for="(category, index) in categories" :key="index" class="mb-4 2xl:space-y-2">
             <div class="flex justify-between items-center  py-2">
               <span class="text-[#273240] font-[popinsRegular] font-medium">{{ category.name }}</span>
               <span class="text-gray-700 font-[popinsRegular]">{{ category.amount }}</span>
