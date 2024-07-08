@@ -1,5 +1,5 @@
 <template>
-  <div class="flex py-5  bg-[#101010]">
+  <div class="flex xl:py-[20px] 2xl:py-[20px] min-w-[1440px] mx-auto  bg-[#101010]">
     <Sidebar />
     <div class="flex-1">
      

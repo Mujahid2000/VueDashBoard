@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[95.6vh] pl-[3rem] w-[22.5rem] bg-[#101010] text-gray-300">
+    <div class="h-[95.6vh] xl:pl-[2.2rem]  2xl:pl-[2.4rem] w-[22rem] bg-[#101010] text-gray-300">
       <div class="p-4 mt-11 items-center">
          <div class="relative inline-block">
     <img
@@ -14,17 +14,17 @@
     </div>
   </div>
         <div class="pt-3">
-          <h2 class="text-[1.875rem] font-[popinsSemiBold] font-semibold">Samantha</h2>
-          <p class="text-[1.0625rem] font-[popinsRegular]">samantha@email.com</p>
+          <h2 class="text-[1.6rem] font-[popinsSemiBold] font-semibold">Samantha</h2>
+          <p class="text-[1rem] font-[popinsRegular]">samantha@email.com</p>
         </div>
       </div>
-      <ul class="mt-20 space-y-[-0.3rem]">
-        <li class="p-4  text-[1.5625rem]"><a class="cursor-pointer font-[popinsSemiBold]">Dashboard</a></li>
-        <li class="p-4  text-[1.5625rem]"><a class="cursor-pointer font-[popinsSemiBold]">Expenses</a></li>
-        <li class="p-4  text-[1.5625rem]"><a class="cursor-pointer font-[popinsSemiBold]">Wallets</a></li>
-        <li class="p-4  text-[1.5625rem]"><a class="cursor-pointer font-[popinsSemiBold]">Summary</a></li>
-        <li class="p-4  text-[1.5625rem]"><a class="cursor-pointer font-[popinsSemiBold]">Accounts</a></li>
-        <li class="p-4  text-[1.5625rem]"><a class="cursor-pointer font-[popinsSemiBold]">Settings</a></li>
+      <ul class="mt-20 space-y-[-0.1rem]">
+        <li class="p-4  text-[1.4rem]"><a class="cursor-pointer font-[popinsSemiBold]">Dashboard</a></li>
+        <li class="p-4  text-[1.4rem]"><a class="cursor-pointer font-[popinsSemiBold]">Expenses</a></li>
+        <li class="p-4  text-[1.4rem]"><a class="cursor-pointer font-[popinsSemiBold]">Wallets</a></li>
+        <li class="p-4  text-[1.4rem]"><a class="cursor-pointer font-[popinsSemiBold]">Summary</a></li>
+        <li class="p-4  text-[1.4rem]"><a class="cursor-pointer font-[popinsSemiBold]">Accounts</a></li>
+        <li class="p-4  text-[1.4rem]"><a class="cursor-pointer font-[popinsSemiBold]">Settings</a></li>
       </ul>
     </div>
   </template>

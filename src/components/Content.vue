@@ -1,9 +1,9 @@
 <template>
-    <div class="flex flex-col h-[95vh] pr-6 md:flex-row ">
+    <div class="flex  justify-center mx-6 h-[95vh]  pr-6 md:flex-row ">
       <!-- Left Section -->
-      <div class="md:w-2/3 bg-white rounded-l-xl px-[6rem] py-[3.3rem]">
+      <div class="xl:w-[45rem] 2xl:w-[71rem] mx-auto bg-white rounded-l-xl px-[4rem] py-[3.2rem]">
         <div class="flex justify-between items-center mb-4">
-          <h1 class="text-[2.5rem] font-[popinsSemiBold] font-semibold">Expenses</h1>
+          <h1 class="text-[2.3rem] font-[popinsSemiBold] font-semibold">Expenses</h1>
           <div class="flex gap-2">
             <div class="flex items-center -space-x-4">
   <img
@@ -65,11 +65,11 @@
       </div>
   
       <!-- Right Section -->
-      <div class="md:w-1/3 bg-[#F9FAFC]  rounded-r-xl md:mt-0">
-        <div class=" px-[3rem] pt-[4rem] pb-[3rem] rounded-tr-xl">
-          <h2 class="text-xl font-bold font-[avenir] mb-4">Where your money go?</h2>
+      <div class="xl:w-[21rem] 2xl:w-[25rem] bg-[#F9FAFC] px-[3rem] rounded-r-xl md:mt-0">
+        <div class="  pt-[4rem] pb-[3rem] rounded-tr-xl">
+          <h2 class=" text-[1.24rem] pb-[1.5rem] font-bold font-[avenir] ">Where your money go?</h2>
           <div v-for="(category, index) in categories" :key="index" class="mb-4">
-            <div class="flex justify-between items-center py-4">
+            <div class="flex justify-between items-center  py-2">
               <span class="text-[#273240] font-[popinsRegular] font-medium">{{ category.name }}</span>
               <span class="text-gray-700 font-[popinsRegular]">{{ category.amount }}</span>
             </div>
@@ -81,14 +81,14 @@
             </div>
           </div>
         </div>
-        <div class="bg-[#EDF0F6] rounded-xl px-[1.57rem]  w-[16rem] h-[17.125rem]  mx-auto">
+        <div class="bg-[#EDF0F6] rounded-xl px-[1.57rem]   w-[16rem] h-[17.125rem]  mx-auto">
             <div class="flex items-center gap-16 mt-[-2rem] justify-between absolute">
                 <img src="https://i.ibb.co/4F63vyw/Illustration-1.png" alt=""><img src="https://i.ibb.co/Z6LVmFd/Illustration.png" alt="">
             </div>
-          <div class="pt-16">
+          <div class="xl:pt-14 2xl:pt-16">
             <h2 class="text-xl font-bold font-[popinsRegular] mb-2">Save more money</h2>
           <p class="text-gray-600  font-[popinsRegular]  mb-3">eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-          <button class="bg-[#101010] text-[0.9125rem] w-full text-white py-[0.81rem] px-[3.87rem] rounded-lg">VIEW TIPS</button>
+          <button class="bg-[#101010] font-[popinsRegular] text-[0.9125rem] w-full text-white py-[0.81rem] px-[3.87rem] rounded-lg">VIEW TIPS</button>
           </div>
         </div>
       </div>
