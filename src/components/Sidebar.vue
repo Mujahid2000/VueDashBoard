@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[95.6vh] xl:pl-[2.2rem]  2xl:pl-[2.4rem] w-[22rem] bg-[#101010] text-gray-300">
+    <div class="h-[95.6vh] xl:pl-[2.2rem]  2xl:pl-[2.4rem] w-[20rem] bg-[#101010] text-gray-300">
       <div class="p-4 mt-11 items-center">
          <div class="relative inline-block">
     <img
